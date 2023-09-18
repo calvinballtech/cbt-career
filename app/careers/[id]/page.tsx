@@ -4,21 +4,13 @@ import md from "markdown-it";
 import { Footer } from "@/components/footer";
 import clsx from "clsx";
 import { FONT_P22_MAKINAC_PRO } from "@/components/font";
+import { availablePositions } from "@/app/api/v1/careers/data";
 
-export default function Carrers() {
-  const data = {
-    id: "customer-success-data-engineer-manager",
-    title: "Customer Success Data Engineer Manager",
-    description:
-      "Responsible for seamless integration of all data setups necessary for powering enterprise success.",
-    detail: `# Job Overview
-    \nAs a Customer Success Data Engineer Manager at CBT, will play a pivotal role in ensuring the successful onboarding and integration of our technology solutions within enterprise clients. Your primary responsibility will be to oversee the entire process of integrating and setting up data systems, ensuring that our products are effectively integrated into the client's existing infrastructure to drive optimal results. [Temporary copy]
-    \n# Key Responsibilities
-    \nAs a Customer Success Data Engineer Manager at CBT, will play a pivotal role in ensuring the successful onboarding and integration of our technology solutions within enterprise clients. [Temporary copy]
-    \n- Abc
-    \n- Abc
-    `,
-  };
+export default function Carrers({ params }: any) {
+  const jobs = availablePositions.filter((item: any) => item.id == params.id);
+  const data = jobs.length ? jobs[0] : null;
+
+  if (null) return window.location.href = '/careers';
 
   return (
     <main>

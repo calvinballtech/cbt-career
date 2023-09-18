@@ -55,7 +55,15 @@ footer {
 
 @layer base {
   #job-detail h1 {
-    @apply font-bold;
+    @apply font-bold text-xl pt-5;
+  }
+
+  #job-detail h2 {
+    @apply font-semibold text-lg;
+  }
+
+  #job-detail h3 {
+    @apply font-bold italic;
   }
 
   #job-detail ul {

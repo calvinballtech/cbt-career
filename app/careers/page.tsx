@@ -1,19 +1,10 @@
 import { FONT_P22_MAKINAC_PRO } from "@/components/font";
-import { Footer } from "@/components/footer";
+import { availablePositions } from "../api/v1/careers/data";
 import clsx from "clsx";
 import { ArrowLeft, Calendar, Map, MapPin, Pin } from "lucide-react";
 import Link from "next/link";
 
-export default function Carrers() {
-  const availablePositions = [
-    {
-      id: "customer-success-data-engineer-manager",
-      title: "Customer Success Data Engineer Manager",
-      description:
-        "Responsible for seamless integration of all data setups necessary for powering enterprise success.",
-    },
-  ];
-
+export default async function Carrers() {
   return (
     <main>
       <Link href="/the-journey" className="fixed m-5">
