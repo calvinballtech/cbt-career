@@ -24,7 +24,7 @@ export default function Carrers() {
     <main>
       <div className="w-full md:w-[1000px] mx-auto px-5 md:px-0">
         <header className="py-20 pb-10 space-y-3">
-          <h3>We're looking for:</h3>
+          <h3>We&apos;re looking for:</h3>
           <h1
             className={clsx(
               "text-4xl font-bold font-color-gradient",

@@ -20,7 +20,7 @@ export default function TheJourney() {
         <>
           Embrace the Playful Spirit
           <br />
-          "The Spark Within"
+          &ldquo;The Spark Within&rdquo;
         </>
       ),
       description: `In this quest, we'll dive into your journey and motivations. What drives you to embrace the playful spirit of Calvinball? Unleash your spark and let us in on your unique inspirations. This isn't about impressing; it's about sharing who you are and how you can amplify our diverse tapestry. We will share with your our code and you can tell us if the code is something you connect with and make it your own.`,
@@ -35,7 +35,7 @@ export default function TheJourney() {
         <>
           Master the Role
           <br />
-          "Craftsmanship Unveiled"
+          &ldquo;Craftsmanship Unveiled&rdquo;
         </>
       ),
       description: `Shift gears to the practical side. We'll delve into your role mastery and the tapestry of skills you've woven. Show us your craftsmanship and give us a glimpse of how you've turned ideas into tangible triumphs. We want to see your work as you will do it in the company. It is designed to give you a real simulation of what your role is expected to contribute. Show your best and this will be a submission based on the role you are considering us for.`,
@@ -50,7 +50,7 @@ export default function TheJourney() {
         <>
           Compatibility Unleashed
           <br />
-          "Weaving Our Futures"
+          &ldquo;Weaving Our Futures&rdquo;
         </>
       ),
       description: `Now, let's explore our compatibility as fellow Calvinballers. Are we in sync, ready to weave our paths into a shared tapestry of success? This quest reveals the harmony between you and our team, ensuring our woven future resonates with shared purpose and passion. This will be with one of the Calvinballers leaders and this is your chance to ask us questions.`,
