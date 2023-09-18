@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --footer-background-color: #001c30;
+}
+
+.font-color-gradient {
+  background: #9b5ee8;
+  background: radial-gradient(
+    circle farthest-side at top right,
+    #9b5ee8 6%,
+    #c97dcb 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+html,
+body {
+  scroll-behavior: smooth;
+  background: #02090f;
+  color: #ffffff;
+}
+
+footer {
+  background: #02090f;
+}
+
+@layer base {
+  #job-detail h1 {
+    @apply font-bold;
+  }
+
+  #job-detail ul {
+    @apply pl-5;
+  }
+
+  #job-detail ul li {
+    @apply list-decimal;
+  }
+}
