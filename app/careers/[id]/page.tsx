@@ -23,7 +23,7 @@ export default function Carrers({ params }: any) {
               FONT_P22_MAKINAC_PRO.className,
             )}
           >
-            Customer Success Data Engineer Manager
+            {data.title}
           </h1>
         </header>
 

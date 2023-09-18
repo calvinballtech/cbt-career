@@ -67,10 +67,10 @@ footer {
   }
 
   #job-detail ul {
-    @apply pl-5;
+    @apply pl-5 ml-5 space-y-3;
   }
 
   #job-detail ul li {
-    @apply list-decimal;
+    @apply list-decimal pl-1;
   }
 }
