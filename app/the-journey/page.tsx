@@ -122,7 +122,7 @@ export default function TheJourney() {
 
       <section
         id="journey-starts-here"
-        className="w-full flex flex-col justify-center items-center py-28 px-5 md:px-0"
+        className="w-full flex flex-col justify-center items-center py-28 px-5 pb-[400px] md:pb-0 md:px-0"
         style={{
           background: "url(/images/planets.png) no-repeat bottom left",
         }}
