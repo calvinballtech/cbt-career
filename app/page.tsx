@@ -62,12 +62,7 @@ export default function Home() {
 
       <section
         id="about-us"
-        className="py-28 px-5 pb-72 md:pb-40 md:px-0"
-        style={{
-          background:
-            "url(/images/astronaut-in-moon.png) no-repeat bottom right",
-        }}
-      >
+        className="py-28 px-5 pb-72 md:pb-40 md:px-0">
         <h1
           className={clsx(
             "text-indigo-400 text-4xl font-semibold text-center mb-20",
@@ -84,15 +79,15 @@ export default function Home() {
             description={`Ever dreamt of turning "stealth mode" into an art form? At CBT, we're not just making AI magic; we're doing it all under the cloak of the best-kept secret in the universe. Our mission? To democratize technology access and make the world & even the galaxies say, "Whoa."`}
             position="left"
             content={
-              <motion.img
-                animate={{ y: [0, -40, 0] }}
-                transition={{
-                  y: { duration: 2, repeat: Infinity, repeatType: "mirror" },
-                }}
-                src="/images/astronaut.png"
-                alt="spaceship"
-                className="mx-auto w-[200px]"
-              />
+              <div className="flex">
+                <motion.img
+                  animate={{ y: [0, -20, 0], rotate: [0, 1000] }}
+                  transition={{ duration: 300, loop: Infinity }}
+                  src="/images/planet-2.png"
+                  alt="spaceship"
+                  className="mx-auto w-[400px]"
+                />
+              </div>
             }
           />
 
@@ -156,14 +151,14 @@ export default function Home() {
         <motion.img
           animate={{
             x: [0, -20, 20, 0],
-            y: [0, -40, 0],
+            y: [0, -40, 0]
           }}
           transition={{
             x: { duration: 2, repeat: Infinity, repeatType: "mirror" },
             y: { duration: 2, repeat: Infinity, repeatType: "mirror" },
           }}
-          src="/images/astronaut-riding-spaceship.png"
-          className="w-[300px] h-auto"
+          src="/images/rocket.png"
+          className="w-[400px] h-auto"
         />
       </section>
     </main>
