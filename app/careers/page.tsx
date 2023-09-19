@@ -1,4 +1,4 @@
-import { FONT_P22_MAKINAC_PRO } from "@/components/font";
+import { FONT_P22_MAKINAC_PRO, FONT_P22_MAKINAC_PRO_BOLD } from "@/components/font";
 import { availablePositions } from "../api/v1/careers/data";
 import clsx from "clsx";
 import { ArrowLeft, Calendar, Map, MapPin, Pin } from "lucide-react";
@@ -16,13 +16,13 @@ export default async function Carrers() {
           <h1
             className={clsx(
               "text-4xl font-bold font-color-gradient",
-              FONT_P22_MAKINAC_PRO.className,
+              FONT_P22_MAKINAC_PRO_BOLD.className,
             )}
           >
             Ready to Embrace the Stealth?
           </h1>
           <h3 className="text-[#DC97A7] font-semibold">
-            Browse here to initiate the most daring mission of your career!
+            Browse open roles below to initiate the most daring mission of your career!
           </h3>
         </header>
 
@@ -60,7 +60,7 @@ const AvailablePosition = ({ id, title, description, location, time }: any) => (
       <div className="text-gray-500">{description}</div>
       <Link href={`/careers/${id}`} className="block">
         <button className="text-indigo-400 border rounded-full px-5 py-2 text-xs shadow hover:text-white hover:bg-indigo-400 hover:border-indigo-400 font-semibold">
-          View Detail
+          Details
         </button>
       </Link>
     </div>

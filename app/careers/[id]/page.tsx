@@ -51,7 +51,7 @@ export default function Carrers({ params }: any) {
       </div>
 
       <section
-        className="flex flex-col items-center py-72 pt-[400px] px-5 md:px-0 space-y-16"
+        className="flex flex-col items-center py-72 pt-[680px] px-5 md:px-0 space-y-16"
         style={{
           background: "url(/images/background.png) no-repeat bottom",
           backgroundSize: "cover",
