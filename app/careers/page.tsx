@@ -31,6 +31,14 @@ export default async function Carrers() {
             <AvailablePosition key={i} {...item} />
           ))}
         </div>
+        <div className="text-center text-xl font-semibold mb-10">
+          Couldn&apos;t find a suitable position?
+          <br/>
+          Worry not, drop us your resume!
+        </div>
+        <div className="w-full flex justify-center">
+          <Link href="https://forms.gle/7mfUBZjVGTz4PyZA9" className="text-white border-2 border-indigo-400 rounded-full px-20 py-2 shadow hover:text-white hover:bg-indigo-400 hover:border-indigo-400 font-semibold">Drop Resume</Link>
+        </div>
       </div>
 
       <section
@@ -39,7 +47,7 @@ export default async function Carrers() {
           background: "url(/images/background.png) no-repeat bottom",
           backgroundSize: "cover",
         }}
-      ></section>
+      />
     </main>
   );
 }

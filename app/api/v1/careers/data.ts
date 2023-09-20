@@ -168,8 +168,8 @@ export const availablePositions: any = [
     `
   },
   {
-    id: "founders-office-manager",
-    title: "Founder's Office Manager",
+    id: "founder-and-ceos-office-manager",
+    title: "Founder and CEO's Office Manager",
     location: "Bali, Indonesia",
     description: `The Founder's Office Manager is an orchestrator of cosmic coordination and a conductor of efficiency. This is a pivotal position that bridges vision with execution, embodying Becky from "The Intern" and Emily from "The Devil Wears Prada" – a fusion of finesse, innovation, and leadership & chaos management in the multiverse.`,
     detail: `# About Us
